@@ -19,7 +19,7 @@ class AdjustMeanSubject(BaseEstimator, TransformerMixin):
         pass
 
     def fit(self, X, y=None):
-        return self
+        return selfS
 
     def transform(self, X):
         data = X.copy()
@@ -29,7 +29,7 @@ class AdjustMeanSubject(BaseEstimator, TransformerMixin):
         
         return data
 
-class FeatureEngineering():
+class FeatureEngineering(BaseEstimator, TransformerMixin):
     def __init__(self):
         pass
 
